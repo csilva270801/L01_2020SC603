@@ -9,10 +9,10 @@ namespace L01_2020SC603.Models
         { 
         
         }
-        public DbSet<clientes> clientes { get; set; }
+        public DbSet<Clientes> Clientes { get; set; }
 
-        public DbSet<pedidos> pedidos { get; set; }
+        public DbSet<Pedidos> Pedidos { get; set; }
 
-        public DbSet<platos> platos { get; set; }
+        public DbSet<Platos> Platos { get; set; }
     }
 }
